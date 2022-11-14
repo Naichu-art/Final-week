@@ -61,42 +61,11 @@ li::first-letter {
   margin-bottom: 15px;
   font-size: 40px;
 }
-.monday {
-  border: 1px solid #555;
-  padding: 2px;
-  margin-right: 20px;
-}
-.tuesday {
-  border: 1px solid #555;
-  padding: 2px;
-  margin-right: 20px;
-}
-.wedday {
-  border: 1px solid #555;
-  padding: 2px;
-  margin-right: 20px;
-}
-.thursday {
-  border: 1px solid #555;
-  padding: 2px;
-  margin-right: 20px;
-}
-.friday {
-  border: 1px solid #555;
-  padding: 2px;
-  margin-right: 20px;
-}
-.saturday {
-  border: 1px solid #555;
-  padding: 2px;
-  margin-right: 20px;
-}
 
 .card {
   padding: 15px;
   margin-top: 33px;
   margin-right: 500px;
-  background-color: rgb(255, 242, 242);
 }
 .open-source {
   font-size: 10px;
@@ -125,7 +94,7 @@ li::first-letter {
 
 .weather-forecast-date {
   font-size: 16px;
-  color: #dadde1;
+  color: rgb(0, 0, 0);
   opacity: 0.6;
 }
 

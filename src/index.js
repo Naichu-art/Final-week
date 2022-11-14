@@ -43,7 +43,6 @@ function displayForecast(response) {
                 <div class="weather-forecast-date">${formatDay(
                   forecastDay.dt
                 )}</div>
-                ${index}
                 <img
                   src="http://openweathermap.org/img/wn/${
                     forecastDay.weather[0].icon
@@ -60,7 +59,7 @@ function displayForecast(response) {
                   )}º </span>
                 </div>
               </div>
-            </div>
+              </div>
             `;
     }
   });
@@ -68,6 +67,7 @@ function displayForecast(response) {
   forecastHTML = forecastHTML + `</div>`;
   forecastElement.innerHTML = forecastHTML;
 }
+
 function search(city) {
   let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
